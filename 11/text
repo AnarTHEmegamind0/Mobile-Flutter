@@ -1,0 +1,174 @@
+import 'package:flutter/material.dart';
+
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  // bool loading = false;
+  void onSubmit() {
+    setState(() {
+      // loading != loading;
+
+      ScaffoldMessenger.of(context).clearSnackBars();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          showCloseIcon: true,
+          backgroundColor: Colors.black12,
+          padding: const EdgeInsets.symmetric(
+            vertical: 10,
+          ),
+          content: const Center(
+            child: Text(
+              "Message sent",
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          action: SnackBarAction(
+            label: "ViewMessage",
+            onPressed: () => ScaffoldMessenger.of(context).clearSnackBars(),
+          ),
+        ),
+      );
+    });
+  }
+
+  void onSubmit1() {
+    setState(() {
+      ScaffoldMessenger.of(context).clearSnackBars();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Row(
+            children: const [
+              Icon(Icons.warning, color: Colors.white),
+              SizedBox(width: 8),
+              Expanded(child: Text('Your notification here!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16,
+              ),
+              )),
+            ],
+          ),
+          duration: Duration(seconds: 1),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            side: BorderSide(color: Colors.orange, width: 1),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          backgroundColor: Colors.orange,
+        ),
+      );
+    });
+  }
+  void onSubmit2() {
+    setState(() {
+      ScaffoldMessenger.of(context).clearSnackBars();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Row(
+            children: const [
+              Icon(Icons.face, color: Colors.black),
+              SizedBox(width: 8),
+              Expanded(child: Text('Your notification here!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16,
+              ),
+              )),
+            ],
+          ),
+          duration: Duration(seconds: 1),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            side: BorderSide(color: Colors.black, width: 1),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          backgroundColor: Colors.black,
+        ),
+      );
+    });
+  }
+  void onSubmit3() {
+    setState(() {
+      ScaffoldMessenger.of(context).clearSnackBars();
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Row(
+            children: const [
+              Icon(Icons.cancel, color: Colors.white),
+              SizedBox(width: 8),
+              Expanded(child: Text('Your notification here!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 16,
+              ),
+              )),
+            ],
+          ),
+          duration: Duration(seconds: 1),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            side: BorderSide(color: Colors.orange, width: 1),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          backgroundColor: Colors.red,
+        ),
+      );
+    });
+  }
+
+
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Home Page',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.blue,
+        centerTitle: true,
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            IconButton(
+              onPressed: onSubmit,
+              icon: const Icon(
+                Icons.facebook,
+                size: 50,
+                color: Colors.blueAccent,
+              ),
+            ),
+            IconButton(
+              onPressed: onSubmit1,
+              icon: const Text("First SnackBar"),
+            ),
+            IconButton(
+              onPressed: onSubmit2,
+              icon: const Text("Second SnackBar"),
+            ),
+            IconButton(
+              onPressed: onSubmit3,
+              icon: const Text("Third SnackBar"),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
