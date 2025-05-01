@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     Navigator.of(context).pop();
 
-    Navigator.push(
+    Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (_) => const SignUpScreen()),
     );
