@@ -1,0 +1,91 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone Number",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "rememberMe": "Remember me"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "greeting": "Hello",
+    "bestQuality": "Best Quality Products",
+    "onlyInShopApp": "Only in Shop App"
+  },
+  "shopping": {
+    "categories": {
+      "all": "All",
+      "electronics": "Electronics",
+      "jewelery": "Jewelery",
+      "menClothing": "Men's Clothing",
+      "womenClothing": "Women's Clothing"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "removeFromCart": "Remove from Cart",
+      "addToFavorites": "Add to Favorites",
+      "removeFromFavorites": "Remove from Favorites",
+      "price": "Price",
+      "quantity": "Quantity",
+      "description": "Description",
+      "rating": "Rating",
+      "reviews": "Reviews",
+      "detailsa": "Product Details"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "clear": "Clear Cart",
+    "addedToCart": "Added to your bag.",
+    "removedFromCart": "Removed from your bag."
+  },
+  "profile": {
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "favorites": "My Favorites",
+    "logout": "Logout"
+  },
+  "errors": {
+    "general": "Something went wrong",
+    "network": "Network error",
+    "invalidEmail": "Invalid email address",
+    "invalidPassword": "Password must be at least 6 characters",
+    "passwordMismatch": "Passwords do not match",
+    "required": "This field is required",
+    "invalidPhone": "Invalid phone number"
+  },
+  "common": {
+    "address": "Address",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "noDescription": "No description available"
+  },
+  "navigator": {
+    "shop": "Shopping",
+    "cart": "Cart",
+    "profile": "Profile",
+    "favorites": "Favorites"
+  }
+}

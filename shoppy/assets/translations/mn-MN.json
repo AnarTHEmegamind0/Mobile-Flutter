@@ -1,0 +1,91 @@
+{
+  "auth": {
+    "login": "Нэвтрэх",
+    "register": "Бүртгүүлэх",
+    "email": "Имэйл",
+    "password": "Нууц үг",
+    "confirmPassword": "Нууц үг баталгаажуулах",
+    "firstName": "Нэр",
+    "lastName": "Овог",
+    "phone": "Утасны дугаар",
+    "forgotPassword": "Нууц үгээ мартсан уу?",
+    "noAccount": "Бүртгэлгүй юу?",
+    "hasAccount": "Бүртгэлтэй юу?",
+    "signUp": "Бүртгүүлэх",
+    "signIn": "Нэвтрэх",
+    "rememberMe": "Сануулах"
+  },
+  "home": {
+    "welcome": "Тавтай морилно уу",
+    "greeting": "Сайн байна уу",
+    "bestQuality": "Хамгийн чанартай бүтээгдэхүүнүүд",
+    "onlyInShopApp": "Зөвхөн Shop App-д"
+  },
+  "shopping": {
+    "categories": {
+      "all": "Бүгд",
+      "electronics": "Цахилгаан хэрэгсэл",
+      "jewelery": "Гоёл чимэглэл",
+      "menClothing": "Эрэгтэй хувцас",
+      "womenClothing": "Эмэгтэй хувцас"
+    },
+    "product": {
+      "addToCart": "Сагсанд нэмэх",
+      "removeFromCart": "Сагснаас хасах",
+      "addToFavorites": "Дуртайд нэмэх",
+      "removeFromFavorites": "Дуртайгаас хасах",
+      "price": "Үнэ",
+      "quantity": "Тоо хэмжээ",
+      "description": "Тайлбар",
+      "rating": "Үнэлгээ",
+      "reviews": "Сэтгэгдэл",
+      "detailsa": "Бүтээгдэхүүний дэлгэрэнгүй"
+    }
+  },
+  "cart": {
+    "title": "Худалдан авалтын сагс",
+    "empty": "Таны сагс хоосон байна",
+    "total": "Нийт",
+    "checkout": "Төлбөр хийх",
+    "remove": "Хасах",
+    "clear": "Сагсыг цэвэрлэх",
+    "addedToCart": "Сагсанд нэмэгдлээ.",
+    "removedFromCart": "Сагснаас хасагдлаа."
+  },
+  "profile": {
+    "title": "Миний профайл",
+    "editProfile": "Профайл засах",
+    "favorites": "Миний дуртай",
+    "logout": "Гарах"
+  },
+  "errors": {
+    "general": "Алдаа гарлаа",
+    "network": "Сүлжээний алдаа",
+    "invalidEmail": "Буруу имэйл хаяг",
+    "invalidPassword": "Нууц үг хамгийн багадаа 6 тэмдэгт байх ёстой",
+    "passwordMismatch": "Нууц үг таарахгүй байна",
+    "required": "Энэ талбарыг бөглөх шаардлагатай",
+    "invalidPhone": "Буруу утасны дугаар"
+  },
+  "common": {
+    "address": "Хаяг",
+    "loading": "Ачааллаж байна...",
+    "retry": "Дахин оролдох",
+    "cancel": "Цуцлах",
+    "save": "Хадгалах",
+    "delete": "Устгах",
+    "edit": "Засах",
+    "close": "Хаах",
+    "confirm": "Баталгаажуулах",
+    "success": "Амжилттай",
+    "error": "Алдаа",
+    "warning": "Анхааруулга",
+    "noDescription": "Тайлбар байхгүй"
+  },
+  "navigator": {
+    "shop": "Дэлгүүр",
+    "cart": "Сагс",
+    "profile": "Профайл",
+    "favorites": "Дуртай"
+  }
+}
